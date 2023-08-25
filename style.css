@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: black;
+   background-image: url(image/trib.avif);
+   color: white;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+    text-decoration: underline;
+    color:darkturquoise;
+}
+
+.tribute-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align:center;
+}
+p:hover
+{
+    background-color:darkgray ;
+}
+
+img {
+    max-width: 60%;
+    height: 50%;
+    border-radius: 50%;
+    border:2px solid green;
+    place-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
